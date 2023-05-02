@@ -186,6 +186,7 @@ void buscarElementoArvore(NO* no, int valor)
 
 	else if (no->valor == valor) {
 		cout << "valor encontrado" << endl;
+		return;
 	}
 
 	else if (valor > no->valor) {
